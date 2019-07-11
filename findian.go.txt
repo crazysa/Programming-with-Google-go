@@ -1,0 +1,31 @@
+package main
+import "fmt"
+import "strigs"
+func main(){
+fmt.Printf("Type a String here:")
+var in string
+fmt.Scan(&in)
+k:=1
+if HasPrefix(in , "i") || HasPrefix(in , "I"){
+ if HasSuffix(in , "n")|| HasSuffix(in , "N")
+ {
+ if contains(in ,"a") || contains(in , "A"){
+ 
+	fmt.Printf("Found")
+ 
+ }
+ else{
+ fmt.Printf("Not Found")
+ }
+ 
+ 
+ }
+ else{fmt.Printf("Not Found")}
+ 
+
+}
+else{fmt.Printf("Not Found")}
+
+
+
+}

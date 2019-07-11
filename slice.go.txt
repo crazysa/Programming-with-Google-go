@@ -1,0 +1,27 @@
+package main
+import "fmt"
+import "strings"
+func main(){
+sli = make([]int , 0,3)
+while{
+
+fmt.printf("type the no to be added\n")
+var x string
+fmt.scan(&x)
+if x == "X"{
+
+break
+
+}
+sli = append(sli , strings.atoi(x))
+sort.Ints(sli)
+
+fmt.printf("%d",sli)
+
+
+
+
+
+}
+
+}
